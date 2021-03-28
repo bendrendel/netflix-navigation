@@ -3,17 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
       integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
       crossorigin="anonymous"
-    /> -->
+    />
     <link rel="stylesheet" href="./style.css" type="text/css" />
     <script src="script.js" defer></script>
     <title>My Project</title>
   </head>
   <body>
-    <h1>Project Starter</h1>
+    <main>
+      <i class="fas fa-bars" id="open-nav"></i>
+      <img src="./netflix-logo.svg" alt="Netflix Logo">
+      <p>Mobile Navigation</p>    
+    </main>
+
+    <nav>
+      <div class="nav top">
+        <i class="fas fa-times"></i>
+        <img src="./netflix-logo.svg" alt="Netflix Logo">
+        <ul>
+          <li><a href="#">Teams</a></li>
+          <li><a href="#">Locations</a></li>
+          <li><a href="#">Life at Netflix</a></li>
+          <ul>
+            <li><a href="#">Netflix Culture Memo</a></li>
+            <li><a href="#">Work Life Balance</a></li>
+            <li><a href="#">Inclusion & Diversity</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </ul>
+      </div>
+      <div class="nav middle"></div>
+      <div class="nav bottom"></div>
+    </nav>
+
   </body>
 </html>
