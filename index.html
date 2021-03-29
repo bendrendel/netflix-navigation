@@ -15,30 +15,29 @@
   </head>
   <body>
     <main>
-      <i class="fas fa-bars" id="open-nav"></i>
-      <img src="./netflix-logo.svg" alt="Netflix Logo">
-      <p>Mobile Navigation</p>    
+      <i class="fas fa-bars" id="show-nav-btn"></i>
+      <img class="logo" src="./netflix-logo.svg" alt="Netflix Logo">
+      <p>Netflix Navigation</p>    
     </main>
-
-    <nav>
-      <div class="nav top">
-        <i class="fas fa-times"></i>
-        <img src="./netflix-logo.svg" alt="Netflix Logo">
-        <ul>
-          <li><a href="#">Teams</a></li>
-          <li><a href="#">Locations</a></li>
-          <li><a href="#">Life at Netflix</a></li>
+    
+    <div class="nav-container-outer">
+      <div class="nav-container-inner">
+        <nav>
+          <i class="fas fa-times" id="hide-nav-btn"></i>
+          <img class="logo" src="./netflix-logo.svg" alt="Netflix Logo">
           <ul>
-            <li><a href="#">Netflix Culture Memo</a></li>
-            <li><a href="#">Work Life Balance</a></li>
-            <li><a href="#">Inclusion & Diversity</a></li>
-            <li><a href="#">Blog</a></li>
+            <li><a href="#">Teams</a></li>
+            <li><a href="#">Locations</a></li>
+            <li>Life at Netflix</li>
+            <ul>
+              <li><a href="#">Netflix Culture Memo</a></li>
+              <li><a href="#">Work Life Balance</a></li>
+              <li><a href="#">Inclusion & Diversity</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
           </ul>
-        </ul>
+        </nav>
       </div>
-      <div class="nav middle"></div>
-      <div class="nav bottom"></div>
-    </nav>
-
+    </div>
   </body>
 </html>
