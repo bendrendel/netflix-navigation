@@ -1,4 +1,4 @@
-# Project Starter
+# Netflix Navigation
 
 ## Introduction
 
