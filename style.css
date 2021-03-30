@@ -45,6 +45,7 @@ main p {
   position: fixed;
   top: 0;
   left: 0;
+  transform: translateX(0);
   transition: transform 0.2s ease-out;
   height: 100%;
 }
