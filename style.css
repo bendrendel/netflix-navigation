@@ -58,6 +58,7 @@ main p {
   width: 40%;
   min-width: 400px;
   max-width: 500px;
+  transition-delay: 0s;
 }
 
 .nav-bottom.hide {
